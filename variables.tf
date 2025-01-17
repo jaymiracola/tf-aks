@@ -27,3 +27,8 @@ variable "username" {
   description = "The admin username for the new cluster."
   default     = "azureadmin"
 }
+variable "password" {
+  type        = string
+  description = "The admin password for the new cluster"
+  default     = "azureadmin"
+}
